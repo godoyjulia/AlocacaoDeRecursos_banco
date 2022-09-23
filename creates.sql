@@ -63,6 +63,7 @@ CREATE TABLE turma_sala
 (
   turma_id int,
   sala_id  int,
+  descricao varchar(100),
   horario  varchar(50) NOT NULL,
   dia date NOT NULL,
  CONSTRAINT FK_81 FOREIGN KEY ( turma_id ) REFERENCES turma ( turma_id ),
